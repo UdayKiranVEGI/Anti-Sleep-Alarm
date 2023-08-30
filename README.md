@@ -1,11 +1,13 @@
-# Anti Sleep Alarm for Drivers
+# Anti Sleep Alarm
 
 ![Anti Sleep Alarm] 
 ![Circuit](https://github.com/UdayKiranVEGI/Anti-Sleep-Alarm/assets/84384630/e363a8eb-1e9d-4b9c-9cad-dae0088ad626)
 
 
 ## Objective
-
+###
+Feeling sleepy while doing work or reading can be detected by this Anti-Sleep Alarm.
+###
 Feeling sleepy while driving could cause hazardous traffic accidents. However, when driving alone on the highway or over a long period of time, drivers are inclined to feel bored and sleepy, or even fall asleep. To address this issue, we have developed a system for detecting drowsy driving and alerting the drivers to prevent accidents and create a safer driving environment.
 
 ## Introduction
@@ -116,9 +118,8 @@ pinMode(buzzer,OUTPUT);
 void readSensorState() {
 // If the difference in time between the previous reading is larger than intervalsensor
 if(currentMillis - previousSensorMillis > intervalSensor) {
-// Read the digital value of the sensor (LO
+// Read the digital value of the sensor (LOW/HIGH)
 ![Circuit](https://github.com/UdayKiranVEGI/Anti-Sleep-Alarm/assets/84384630/4372db4d-07f6-4737-a9a8-f83507e036d9)
-W/HIGH)
 int SensorState = digitalRead(sensorPin);
 // If the button has been active AND
 // If the sensor wasn't activated before AND
@@ -134,14 +135,12 @@ SensorOutDuration = currentMillis - SensorLongMillis;
 // If the button is active AND
 // If there is no measurement running to determine how long the sensor is active AND
 // If the time the sensor has been activated is larger or equal to the time needed for a long active
-if (SensorState == LOW && !SensorStateLongTime && SensorOutDuration >= 
-minSensorDuration) {
+if (SensorState == LOW && !SensorStateLongTime && SensorOutDuration >= minSensorDuration) {
 SensorStateLongTime = true;
 digitalWrite(Relay,HIGH);
 Serial.println("Button long pressed");
 }
-if (SensorState == LOW && SensorStateLongTime && SensorOutDuration >= 
-minSensorDuration2) {
+if (SensorState == LOW && SensorStateLongTime && SensorOutDuration >= minSensorDuration2) {
 SensorStateLongTime = true;
 digitalWrite(buzzer,HIGH);
 delay(1000);
