@@ -80,10 +80,10 @@ We value feedback and honest criticism of our technical work and acknowledge the
 ### T. Deva Sai Kishore (20A91A0452)
 ### V. Mallesh Uday Kiran (20A91A0458)
 
-https://github.com/UdayKiranVEGI/Anti-Sleep-Alarm/assets/84384630/0fb4bef7-48cb-400b-944d-060669755f83
+#### https://github.com/UdayKiranVEGI/Anti-Sleep-Alarm/assets/84384630/0fb4bef7-48cb-400b-944d-060669755f83
 
 
-https://github.com/UdayKiranVEGI/Anti-Sleep-Alarm/assets/84384630/45d237ce-8ac4-4009-8cb3-b2bb326825fb
+#### https://github.com/UdayKiranVEGI/Anti-Sleep-Alarm/assets/84384630/45d237ce-8ac4-4009-8cb3-b2bb326825fb
 
 ![Testing_by_DSK](https://github.com/UdayKiranVEGI/Anti-Sleep-Alarm/assets/84384630/c2ec2755-8d4a-4903-ad5e-e9c940355232)
 
