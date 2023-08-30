@@ -75,10 +75,10 @@ Our Driver Sleep Detection and Alarming System help warn drivers when their phys
 
 We value feedback and honest criticism of our technical work and acknowledge the contributions of others in this project.
 ## Contributors
-B. Harsha Vardhan (20A91A0405)
-P. Nanda Kishore (20A91A0442)
-T. Deva Sai Kishore (20A91A0452)
-V. Mallesh Uday Kiran (20A91A0458)
+### B. Harsha Vardhan (20A91A0405)
+### P. Nanda Kishore (20A91A0442)
+### T. Deva Sai Kishore (20A91A0452)
+### V. Mallesh Uday Kiran (20A91A0458)
 
 https://github.com/UdayKiranVEGI/Anti-Sleep-Alarm/assets/84384630/0fb4bef7-48cb-400b-944d-060669755f83
 
